@@ -50,8 +50,8 @@ button:active {
 }
 
 .cart {
-  margin: 5rem 2rem;
-  border: 2px solid #540075;
+  margin: 5rem 12rem;
+  border: 2px solid #017db6;
   border-radius: 10px;
   padding: 2rem;
   display: flex;
@@ -60,8 +60,8 @@ button:active {
 
 .cart h2 {
   margin: 0;
-  font-size: 1.5rem;
-  color: #540075;
+  font-size: 1.6rem;
+  color: #01364b;
 }
 
 .product-list {
