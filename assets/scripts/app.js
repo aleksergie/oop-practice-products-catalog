@@ -92,7 +92,7 @@ class ProductItem extends Component {
 }
 
 class ProductList extends Component {
-  products = [
+  #products = [
     new Product(
       "A Pillow",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_Qh0658Pr8D4bKZnG-Sv5RyZfOnDDfMEIjQ&usqp=CAU",
@@ -115,7 +115,7 @@ class ProductList extends Component {
     this.createRootElement("ul", "product-list", [
       new ElementAttr("id", "prod-list"),
     ]);
-    for (let product of this.products) {
+    for (let product of this.#products) {
       const productItem = new ProductItem(product, "prod-list");
       productItem.render();
     }
